@@ -1,6 +1,6 @@
 # Dados Abertos do Banco Central do Brasil (APIs)
 
-Serviços de Consulta a API dos Dados Abertos do Banco Central do Brasil
+Serviços de Consulta a API dos Dados Abertos do Banco Central do Brasil, utilizando Python.
 
 https://dadosabertos.bcb.gov.br/.
 
