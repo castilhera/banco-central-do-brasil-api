@@ -1,7 +1,7 @@
 from datetime import date, datetime
 from bcbapi._api_client import _APIClient
 from bcbapi.config import API_BASE_URL, REQUEST_DATE_FORMAT
-from bcbapi.models.exchange_rate import BulletinType, ExchangeRate
+from bcbapi import BulletinType, ExchangeRate
 
 class ExchangeRateService:
 

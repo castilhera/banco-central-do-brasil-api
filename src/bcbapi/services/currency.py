@@ -1,6 +1,6 @@
 from bcbapi._api_client import _APIClient
 from bcbapi.config import API_BASE_URL
-from bcbapi.models.currencies import Currency, CurrencyType
+from bcbapi import Currency, CurrencyType
 
 class CurrencyService:
 
