@@ -10,7 +10,7 @@ class _APIClient:
         """
         if not params:
             params = {}
-        params["format"] = "json"
+        params["$format"] = "json"
         return params
 
     def __parse_response(self, response):
