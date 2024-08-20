@@ -2,7 +2,7 @@ import unittest
 from datetime import date
 from bcbapi import ExchangeRateService
 
-class TestExhangeRate(unittest.TestCase):
+class TestExchangeRate(unittest.TestCase):
 
     def __init__(self, methodName: str = "runTest") -> None:
         super().__init__(methodName)
