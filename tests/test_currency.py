@@ -17,6 +17,7 @@ class TestCurrency(unittest.TestCase):
                              for currency in result
                              if currency.code == 'CAD'), None)
         self.assertIsInstance(cad_currency, Currency)
+        self.assertEqual(cad_currency.code, 'CAD')
 
 
 if __name__ == '__main__':

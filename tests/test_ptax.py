@@ -8,11 +8,9 @@ class TestPtax(unittest.TestCase):
         super().__init__(methodName)
         self.service = PTAXService()
 
-
     def test_get_ptax_rate_should_return_none(self):
         result = self.service.get_ptax_rate(date(2024, 1, 1))
         self.assertIsNone(result)
-
 
     def test_get_ptax_rate_should_return_ptax(self):
         result = self.service.get_ptax_rate(date(2024, 1, 2))

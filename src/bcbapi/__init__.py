@@ -1,5 +1,3 @@
-# from ._api_client import _APIClient
-
 from .models.currency import Currency, CurrencyType
 from .services.currency import CurrencyService
 

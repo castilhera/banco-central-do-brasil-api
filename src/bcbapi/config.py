@@ -1,5 +1,4 @@
-API_BASE_URL = "https://olinda.bcb.gov.br/olinda/servico/{service}/versao/v1/odata/"
-
-REQUEST_DATE_FORMAT = "'%m-%d-%Y'"
-
-FORMAT = "json"
+class Config:
+    REQUEST_DATE_FORMAT = "'%m-%d-%Y'"
+    RESPONSE_FORMAT = "json"
+    RESPONSE_DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S.%f"

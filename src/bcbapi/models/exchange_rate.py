@@ -3,10 +3,10 @@ from datetime import datetime
 from enum import Enum
 
 class BulletinType(Enum):
-    Opening = "Abertura"
-    Intermediate = "Intermediário"
-    Closing = "Fechamento"
-    ClosingPTAX = "Fechamento PTAX"
+    OPENING = "Abertura"
+    INTERMEDIATE = "Intermediário"
+    CLOSING = "Fechamento"
+    CLOSING_PTAX = "Fechamento PTAX"
 
 @dataclass(frozen=True)
 class ExchangeRate:
